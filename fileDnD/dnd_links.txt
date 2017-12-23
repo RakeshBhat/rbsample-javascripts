@@ -1,0 +1,13 @@
+https://stackoverflow.com/questions/32556664/getting-byte-array-through-input-type-file/32556944
+
+https://jsfiddle.net/JeJenny/ZG9re/
+
+https://stackoverflow.com/questions/22680695/how-to-get-byte-array-from-input-type-file-using-javascript
+
+https://stackoverflow.com/questions/37134433/convert-input-file-to-byte-array
+
+>>>
+https://www.html5rocks.com/en/tutorials/file/dndfiles/
+
+>>>
+https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications
