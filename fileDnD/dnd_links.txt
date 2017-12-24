@@ -11,3 +11,5 @@ https://www.html5rocks.com/en/tutorials/file/dndfiles/
 
 >>>
 https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications
+
+http://www.developerdrive.com/2012/03/implementing-drag-and-drop-functions-with-html5-and-javascript/

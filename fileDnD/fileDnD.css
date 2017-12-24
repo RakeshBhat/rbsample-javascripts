@@ -1,0 +1,36 @@
+body{
+  background: rgba(12, 80, 140, 0.88);
+}
+div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -250px;
+  width: 500px;
+  height: 200px;
+  border: 4px dashed #fff;
+}
+div p{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-family: cursive;
+}
+/*
+div p:hover{
+  background: #149174;
+	color: #0C5645;
+}
+div p:active{
+  border:0;
+}
+*/
+output{
+  background: #0C5645;
+	color: #ffffeb;
+}
+
+
+

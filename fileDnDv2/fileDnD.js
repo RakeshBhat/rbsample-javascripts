@@ -1,13 +1,12 @@
-<html>
-<head>
-    <title>File Drag and Drop Demo</title>
-    <link rel="stylesheet" type="text/css" href="fileDnD.css">
-    </head>
-<div id="drop_zone"><p>Hello there, Drop files here</p></div>
-<output id="list"></output>
 
-<script>
-  function handleFileSelect(evt) {
+/*function divClicked(){
+  // Setup the dnd listeners.
+  var dropZone = document.getElementById('drop_zone');
+  dropZone.addEventListener('dragover', handleDragOver, false);
+  dropZone.addEventListener('drop', handleFileSelect, false);   
+}*/
+
+function handleFileSelect(evt) {
     evt.stopPropagation();
     evt.preventDefault();
 
@@ -37,8 +36,8 @@
       
         // Read in the image file as a data URL.
       reader.readAsDataURL(f);
-      sleep(5000); 
-      reader.readAsArrayBuffer(f);
+      //sleep(5000); 
+      //reader.readAsArrayBuffer(f);
      //console.log(theFile.target.result);
     }
     document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
@@ -58,9 +57,3 @@
     evt.dataTransfer.dropEffect = 'copy'; // Explicitly show this is a copy.
   }
 
-  // Setup the dnd listeners.
-  var dropZone = document.getElementById('drop_zone');
-  dropZone.addEventListener('dragover', handleDragOver, false);
-  dropZone.addEventListener('drop', handleFileSelect, false);
-</script>
-</html>
